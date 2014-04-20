@@ -13,7 +13,7 @@
 
 Name: ganeti
 Version: 2.10.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 Group: System Environment/Daemons
 Summary: Cluster virtual server management software
 License: GPLv2
@@ -55,6 +55,7 @@ BuildRequires: ghc-parallel-devel
 BuildRequires: ghc-QuickCheck-devel
 BuildRequires: ghc-text-devel
 BuildRequires: ghc-utf8-string-devel
+BuildRequires: ghc-vector-devel
 BuildRequires: libcurl-devel
 %endif
 
@@ -154,6 +155,9 @@ exit 0
 %attr(750,root,root) %dir /var/log/%{name}
 
 %changelog
+* Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-2
+- Added BuildRequires: ghc-vector-devel
+
 * Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-1
 - Updated to 2.10.3
 
