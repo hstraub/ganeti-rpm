@@ -53,6 +53,7 @@ BuildRequires: ghc-hslogger-devel
 BuildRequires: ghc-json-devel
 BuildRequires: ghc-parallel-devel
 BuildRequires: ghc-QuickCheck-devel
+BuildRequires: ghc-regex-pcre-devel
 BuildRequires: ghc-text-devel
 BuildRequires: ghc-utf8-string-devel
 BuildRequires: ghc-vector-devel
@@ -157,6 +158,7 @@ exit 0
 %changelog
 * Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-2
 - Added BuildRequires: ghc-vector-devel
+- Added BuildRequires: ghc-regex-pcre-devel
 
 * Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-1
 - Updated to 2.10.3
