@@ -49,6 +49,7 @@ BuildRequires: ghc-attoparsec-devel
 BuildRequires: ghc-Crypto-devel
 BuildRequires: ghc-curl-devel
 BuildRequires: ghc-network-devel
+BuildRequires: ghc-hinotify-devel
 BuildRequires: ghc-hslogger-devel
 BuildRequires: ghc-json-devel
 BuildRequires: ghc-parallel-devel
@@ -159,6 +160,7 @@ exit 0
 * Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-2
 - Added BuildRequires: ghc-vector-devel
 - Added BuildRequires: ghc-regex-pcre-devel
+- Added BuildRequires: ghc-hinotify-devel
 
 * Sun Apr 20 2014 Jun Futagawa <jfut@integ.jp> - 2.10.3-1
 - Updated to 2.10.3
